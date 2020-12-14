@@ -1,0 +1,168 @@
+
+2020-12-12 13:34:15 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 36
+java.sql.SQLSyntaxErrorException: Unknown column 'groupinfo.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 13:53:34 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 37
+java.sql.SQLSyntaxErrorException: Unknown column 'groupinfo.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 14:56:55 Apache Commons Daemon procrun stdout initialized.
+Couldn't Connect database
+
+2020-12-12 14:58:06 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 39
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+a
+Number of Books is 2
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 15:07:01 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 2
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+j
+Number of Books is 3
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+oops
+Number of Books is 4
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 15:26:43 Apache Commons Daemon procrun stdout initialized.
+
+2020-12-12 15:27:29 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 5
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 18:17:59 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 8
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 18:25:52 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 18:41:09 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 18:42:11 Apache Commons Daemon procrun stdout initialized.
+
+2020-12-12 18:45:10 Apache Commons Daemon procrun stdout initialized.
+
+2020-12-12 18:48:17 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 0
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 18:50:23 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 9
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 0
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 19:04:12 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 0
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 0
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 19:11:01 Apache Commons Daemon procrun stdout initialized.
+
+2020-12-12 19:12:37 Apache Commons Daemon procrun stdout initialized.
+
+2020-12-12 19:13:45 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 0
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 1
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 19:16:39 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 1
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 19:20:15 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 0
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+
+2020-12-12 22:57:05 Apache Commons Daemon procrun stdout initialized.
+
+2020-12-12 23:00:02 Apache Commons Daemon procrun stdout initialized.
+Number of Books is 1
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 1
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 1
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 1
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 5
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+Number of Books is 5
+java.sql.SQLSyntaxErrorException: Unknown column 'userdetails.userId' in 'on clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'
+java.sql.SQLSyntaxErrorException: Unknown column 'userId' in 'where clause'

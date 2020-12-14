@@ -1,0 +1,114 @@
+[2020-12-09 19:04:15] [info]  [20156] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:04:15] [info]  [20156] Installing service 'Tomcat8' name 'Apache Tomcat 8.5 Tomcat8'.
+[2020-12-09 19:04:15] [info]  [20156] Service 'Tomcat8' installed.
+[2020-12-09 19:04:15] [info]  [20156] Apache Commons Daemon procrun finished.
+[2020-12-09 19:04:16] [info]  [20252] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:04:16] [info]  [20252] Updating service...
+[2020-12-09 19:04:16] [info]  [20252] Updated service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [20252] Finished updating service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [20252] Apache Commons Daemon procrun finished.
+[2020-12-09 19:04:16] [info]  [ 1832] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:04:16] [info]  [ 1832] Updating service...
+[2020-12-09 19:04:16] [info]  [ 1832] Updated service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [ 1832] Finished updating service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [ 1832] Apache Commons Daemon procrun finished.
+[2020-12-09 19:04:16] [info]  [19760] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:04:16] [info]  [19760] Updating service...
+[2020-12-09 19:04:16] [info]  [19760] Updated service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [19760] Finished updating service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [19760] Apache Commons Daemon procrun finished.
+[2020-12-09 19:04:16] [info]  [11588] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:04:16] [info]  [11588] Updating service...
+[2020-12-09 19:04:16] [info]  [11588] Updated service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [11588] Finished updating service 'Tomcat8'.
+[2020-12-09 19:04:16] [info]  [11588] Apache Commons Daemon procrun finished.
+[2020-12-09 19:04:23] [info]  [20276] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:04:23] [info]  [20276] Running Service 'Tomcat8'...
+[2020-12-09 19:04:23] [info]  [10460] Starting service...
+[2020-12-09 19:04:24] [info]  [10460] Service started in 1509 milliseconds.
+[2020-12-09 19:54:10] [info]  [12420] Stopping service...
+[2020-12-09 19:54:11] [info]  [12420] Service stop thread completed.
+[2020-12-09 19:54:11] [info]  [20276] Run service finished.
+[2020-12-09 19:54:11] [info]  [20276] Apache Commons Daemon procrun finished.
+[2020-12-09 19:54:12] [info]  [16720] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 19:54:12] [info]  [16720] Running Service 'Tomcat8'...
+[2020-12-09 19:54:12] [info]  [ 4808] Starting service...
+[2020-12-09 19:54:13] [info]  [ 4808] Service started in 1194 milliseconds.
+[2020-12-09 20:36:25] [info]  [ 6004] Stopping service...
+[2020-12-09 20:36:26] [info]  [ 6004] Service stop thread completed.
+[2020-12-09 20:36:26] [info]  [16720] Run service finished.
+[2020-12-09 20:36:26] [info]  [16720] Apache Commons Daemon procrun finished.
+[2020-12-09 20:36:26] [info]  [17124] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 20:36:27] [info]  [17124] Running Service 'Tomcat8'...
+[2020-12-09 20:36:27] [info]  [17280] Starting service...
+[2020-12-09 20:36:27] [error] [17280] Invalid RuntimeLib specified 'C:\Program Files\Java\jre1.8.0_251\bin\server\jvm.dll'
+[2020-12-09 20:36:27] [error] [17280] The system cannot find the path specified.
+[2020-12-09 20:36:27] [error] [17280] Failed to load JVM DLL 'C:\Program Files\Java\jre1.8.0_251\bin\server\jvm.dll', home ''.
+[2020-12-09 20:36:27] [error] [17280] The system cannot find the path specified.
+[2020-12-09 20:36:27] [error] [17280] Failed creating Java 'C:\Program Files\Java\jre1.8.0_251\bin\server\jvm.dll'.
+[2020-12-09 20:36:27] [error] [17280] The system cannot find the path specified.
+[2020-12-09 20:36:27] [error] [17280] ServiceStart returned 1.
+[2020-12-09 20:36:27] [error] [17280] The system cannot find the path specified.
+[2020-12-09 20:36:27] [info]  [17124] Run service finished.
+[2020-12-09 20:36:27] [info]  [17124] Apache Commons Daemon procrun finished.
+[2020-12-09 20:37:55] [info]  [ 7660] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 20:37:55] [info]  [ 7660] Running Service 'Tomcat8'...
+[2020-12-09 20:37:55] [info]  [ 3912] Starting service...
+[2020-12-09 20:37:55] [error] [ 3912] Invalid RuntimeLib specified 'C:\Program Files\Java\jre1.8.0_251\bin\server\jvm.dll'
+[2020-12-09 20:37:55] [error] [ 3912] The system cannot find the path specified.
+[2020-12-09 20:37:55] [error] [ 3912] Failed to load JVM DLL 'C:\Program Files\Java\jre1.8.0_251\bin\server\jvm.dll', home ''.
+[2020-12-09 20:37:55] [error] [ 3912] The system cannot find the path specified.
+[2020-12-09 20:37:55] [error] [ 3912] Failed creating Java 'C:\Program Files\Java\jre1.8.0_251\bin\server\jvm.dll'.
+[2020-12-09 20:37:55] [error] [ 3912] The system cannot find the path specified.
+[2020-12-09 20:37:55] [error] [ 3912] ServiceStart returned 1.
+[2020-12-09 20:37:55] [error] [ 3912] The system cannot find the path specified.
+[2020-12-09 20:37:55] [info]  [ 7660] Run service finished.
+[2020-12-09 20:37:55] [info]  [ 7660] Apache Commons Daemon procrun finished.
+[2020-12-09 20:38:13] [info]  [16396] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 20:38:13] [info]  [16396] Running Service 'Tomcat8'...
+[2020-12-09 20:38:13] [info]  [10508] Starting service...
+[2020-12-09 20:38:15] [info]  [10508] Service started in 1433 milliseconds.
+[2020-12-09 22:11:13] [info]  [13272] Stopping service...
+[2020-12-09 22:11:14] [info]  [13272] Service stop thread completed.
+[2020-12-09 22:11:14] [info]  [16396] Run service finished.
+[2020-12-09 22:11:14] [info]  [16396] Apache Commons Daemon procrun finished.
+[2020-12-09 22:11:15] [info]  [19680] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 22:11:15] [info]  [19680] Running Service 'Tomcat8'...
+[2020-12-09 22:11:15] [info]  [14444] Starting service...
+[2020-12-09 22:11:16] [info]  [14444] Service started in 1417 milliseconds.
+[2020-12-09 23:31:22] [info]  [15440] Stopping service...
+[2020-12-09 23:31:23] [info]  [15440] Service stop thread completed.
+[2020-12-09 23:31:24] [info]  [19680] Run service finished.
+[2020-12-09 23:31:24] [info]  [19680] Apache Commons Daemon procrun finished.
+[2020-12-09 23:31:24] [info]  [ 5304] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 23:31:24] [info]  [ 5304] Running Service 'Tomcat8'...
+[2020-12-09 23:31:24] [info]  [19472] Starting service...
+[2020-12-09 23:31:25] [info]  [19472] Service started in 1261 milliseconds.
+[2020-12-09 23:36:14] [info]  [11020] Stopping service...
+[2020-12-09 23:36:15] [info]  [11020] Service stop thread completed.
+[2020-12-09 23:36:15] [info]  [ 5304] Run service finished.
+[2020-12-09 23:36:16] [info]  [ 5304] Apache Commons Daemon procrun finished.
+[2020-12-09 23:36:16] [info]  [16544] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 23:36:16] [info]  [16544] Running Service 'Tomcat8'...
+[2020-12-09 23:36:16] [info]  [17008] Starting service...
+[2020-12-09 23:36:17] [info]  [17008] Service started in 1198 milliseconds.
+[2020-12-09 23:55:21] [info]  [20996] Stopping service...
+[2020-12-09 23:55:22] [info]  [20996] Service stop thread completed.
+[2020-12-09 23:55:22] [info]  [16544] Run service finished.
+[2020-12-09 23:55:22] [info]  [16544] Apache Commons Daemon procrun finished.
+[2020-12-09 23:55:22] [info]  [ 5596] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 23:55:22] [info]  [ 5596] Running Service 'Tomcat8'...
+[2020-12-09 23:55:22] [info]  [11384] Starting service...
+[2020-12-09 23:55:23] [info]  [11384] Service started in 1257 milliseconds.
+[2020-12-09 23:58:12] [info]  [14112] Stopping service...
+[2020-12-09 23:58:13] [info]  [14112] Service stop thread completed.
+[2020-12-09 23:58:13] [info]  [ 5596] Run service finished.
+[2020-12-09 23:58:13] [info]  [ 5596] Apache Commons Daemon procrun finished.
+[2020-12-09 23:58:13] [info]  [21140] Apache Commons Daemon procrun (1.2.3.0 64-bit) started.
+[2020-12-09 23:58:13] [info]  [21140] Running Service 'Tomcat8'...
+[2020-12-09 23:58:13] [info]  [16396] Starting service...
+[2020-12-09 23:58:14] [info]  [16396] Service started in 1279 milliseconds.
+[2020-12-10 00:02:12] [info]  [21304] Stopping service...
+[2020-12-10 00:02:13] [info]  [21304] Service stop thread completed.
+[2020-12-10 00:02:13] [info]  [21140] Run service finished.
+[2020-12-10 00:02:13] [info]  [21140] Apache Commons Daemon procrun finished.

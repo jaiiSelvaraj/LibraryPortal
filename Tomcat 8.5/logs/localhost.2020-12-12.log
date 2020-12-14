@@ -1,0 +1,2582 @@
+12-Dec-2020 15:26:23.437 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doPost(purchaseBook.java:37)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:26:23.438 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [purchaseBook] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doPost(purchaseBook.java:37)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:26:50.375 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doGet(purchaseBook.java:23)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:26:50.375 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [purchaseBook] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doGet(purchaseBook.java:23)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:26:55.634 SEVERE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [31] in the jsp file: [/purchaseBooks.jsp]
+bok cannot be resolved
+28: 					for (int count = 0; count < listOfBooks.size(); count++) {
+29: 					Books book = (Books) listOfBooks.get(count);
+30: 				%>
+31: 				<option value="<%=bok.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+32: 				<%}%>
+33: 			</select><br>
+34: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:29:58.450 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doGet(purchaseBook.java:23)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:29:58.451 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [purchaseBook] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doGet(purchaseBook.java:23)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:30:08.687 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.ApplicationDispatcher.invoke Servlet.service() for servlet [jsp] threw exception
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doGet(purchaseBook.java:23)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:30:08.687 SEVERE [http-nio-8080-exec-8] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [purchaseBook] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:713)
+		at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:462)
+		at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:387)
+		at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:315)
+		at purchaseBook.doGet(purchaseBook.java:23)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 15:30:14.205 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+An error occurred at line: [29] in the jsp file: [/purchaseBooks.jsp]
+book cannot be resolved
+26: 				<%
+27: 					for (int count = 0; count < listOfBooks.size(); count++) {%>
+28: 					Books book = (Books) listOfBooks.get(count);
+29: 				<option value="<%=book.getId()%>"><%=book.getName()%>-<%=book.getAuthor() %>-<%=book.getYear() %></option>
+30: 				<%}%>
+31: 			</select><br>
+32: 			<br>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:18:09.624 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/createGroup.jsp]
+The method getSession(boolean) in the type HttpServletRequest is not applicable for the arguments (String)
+5: <!DOCTYPE html>
+6: <html>
+7: <%
+8: 	if(request.getSession("userName")==null)
+9: 	{
+10: 		response.sendRedirect("Login.jsp");
+11: 		return;
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/createGroup.jsp]
+The method getSession(boolean) in the type HttpServletRequest is not applicable for the arguments (String)
+5: <!DOCTYPE html>
+6: <html>
+7: <%
+8: 	if(request.getSession("userName")==null)
+9: 	{
+10: 		response.sendRedirect("Login.jsp");
+11: 		return;
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:18:20.471 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [login] in context with path [/Library] threw exception
+	java.lang.NullPointerException
+		at login.doGet(login.java:17)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:18:53.650 SEVERE [http-nio-8080-exec-10] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/createGroup.jsp]
+The method getSession(boolean) in the type HttpServletRequest is not applicable for the arguments (String)
+5: <!DOCTYPE html>
+6: <html>
+7: <%
+8: 	if(request.getSession("userName")==null)
+9: 	{
+10: 		response.sendRedirect("Login.jsp");
+11: 		return;
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [8] in the jsp file: [/createGroup.jsp]
+The method getSession(boolean) in the type HttpServletRequest is not applicable for the arguments (String)
+5: <!DOCTYPE html>
+6: <html>
+7: <%
+8: 	if(request.getSession("userName")==null)
+9: 	{
+10: 		response.sendRedirect("Login.jsp");
+11: 		return;
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	</form>
+24: 	<h2><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h2>
+25: </body>
+26: </html>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:21:11.331 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:21:15.514 SEVERE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error on token "==", invalid AssignmentOperator
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+An error occurred at line: [23] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+20: 	<form action="createGroup" method="post">
+21: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+22: 	<input type="submit" value="submit"/>
+23: 	<h1><%request.getAttribute("Message")==null ?" ":request.getAttribute("Message") %><h1>
+24: 	</form>
+25: 	
+26: </body>
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:22:32.927 SEVERE [http-nio-8080-exec-5] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token ")", delete this token
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ")" to complete Expression
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token ")", delete this token
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ")" to complete Expression
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 18:22:37.063 SEVERE [http-nio-8080-exec-6] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token ")", delete this token
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ")" to complete Expression
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+The left-hand side of an assignment must be a variable
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error on token ")", delete this token
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ")" to complete Expression
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert "AssignmentOperator Expression" to complete Assignment
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+An error occurred at line: [24] in the jsp file: [/createGroup.jsp]
+Syntax error, insert ";" to complete Statement
+21: 	<div>
+22: 	Enter Your groupName to Create:<input type="text" name="groupName"/ >
+23: 	<input type="submit" value="submit"/>
+24: 	<h1><%(request.getAttribute("Message")==null) ?" ":request.getAttribute("Message") %><h1>
+25: 	</div>
+26: 	</form>
+27: 	
+
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
+12-Dec-2020 19:09:21.865 SEVERE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/Library] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on tokens, Expression expected instead
+19: %>
+20: <body>
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+h1 cannot be resolved to a type
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete BlockStatements
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Your cannot be resolved to a type
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [25] in the jsp file: [/ViewMyBook.jsp]
+table cannot be resolved to a type
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+
+
+An error occurred at line: [25] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+
+
+An error occurred at line: [25] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+
+
+An error occurred at line: [26] in the jsp file: [/ViewMyBook.jsp]
+tr cannot be resolved to a type
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+
+
+An error occurred at line: [26] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+
+
+An error occurred at line: [26] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+th cannot be resolved to a type
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "S", invalid Modifiers
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+S cannot be resolved to a type
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token(s), misplaced construct(s)
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token(s), misplaced construct(s)
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [30] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+
+
+An error occurred at line: [30] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+
+
+An error occurred at line: [32] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "<", invalid Expression
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+34: 		for (Books k : bookInfo) {
+35: 		%>
+
+
+An error occurred at line: [33] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ". class" to complete Expression
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+34: 		for (Books k : bookInfo) {
+35: 		%>
+36: 		<tr>
+
+
+An error occurred at line: [33] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+34: 		for (Books k : bookInfo) {
+35: 		%>
+36: 		<tr>
+
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\work\Catalina\localhost\Library\org\apache\jsp\ViewMyBook_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [197] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\work\Catalina\localhost\Library\org\apache\jsp\ViewMyBook_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+	org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [22] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on tokens, Expression expected instead
+19: %>
+20: <body>
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+h1 cannot be resolved to a type
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete BlockStatements
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Your cannot be resolved to a type
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [24] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+21: <%
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+
+
+An error occurred at line: [25] in the jsp file: [/ViewMyBook.jsp]
+table cannot be resolved to a type
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+
+
+An error occurred at line: [25] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+
+
+An error occurred at line: [25] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+22: 		if(bookInfo!=null)
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+
+
+An error occurred at line: [26] in the jsp file: [/ViewMyBook.jsp]
+tr cannot be resolved to a type
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+
+
+An error occurred at line: [26] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+
+
+An error occurred at line: [26] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+23: 		{
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+th cannot be resolved to a type
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "S", invalid Modifiers
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Constructor call must be the first statement in a constructor
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+S cannot be resolved to a type
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [27] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+24: 	<h1>Your Purchased Books</h1>
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token(s), misplaced construct(s)
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [28] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+25: 	<table>
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token(s), misplaced construct(s)
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "VariableDeclarators" to complete LocalVariableDeclaration
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [29] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ";" to complete LocalVariableDeclarationStatement
+26: 		<tr>
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+
+
+An error occurred at line: [30] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert "super ( ) ;" to complete Statement
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+
+
+An error occurred at line: [30] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "/", delete this token
+27: 			<th>S No</th>
+28: 			<th>Book Name</th>
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+
+
+An error occurred at line: [32] in the jsp file: [/ViewMyBook.jsp]
+Syntax error on token "<", invalid Expression
+29: 			<th>Author Name</th>
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+34: 		for (Books k : bookInfo) {
+35: 		%>
+
+
+An error occurred at line: [33] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ". class" to complete Expression
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+34: 		for (Books k : bookInfo) {
+35: 		%>
+36: 		<tr>
+
+
+An error occurred at line: [33] in the jsp file: [/ViewMyBook.jsp]
+Syntax error, insert ") Statement" to complete IfStatement
+30: 			<th>Year</th>
+31: 		</tr>
+32: 		<%
+33: 			int i = 1;
+34: 		for (Books k : bookInfo) {
+35: 		%>
+36: 		<tr>
+
+
+An error occurred at line: [196] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\work\Catalina\localhost\Library\org\apache\jsp\ViewMyBook_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [197] in the generated java file: [C:\Program Files\Apache Software Foundation\Tomcat 8.5\work\Catalina\localhost\Library\org\apache\jsp\ViewMyBook_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+		at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:102)
+		at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+		at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:560)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:381)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+		at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+		at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:597)
+		at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:399)
+		at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+		at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+		at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+		at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+		at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+		at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+		at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+		at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:544)
+		at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+		at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+		at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:690)
+		at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+		at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+		at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:616)
+		at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+		at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:831)
+		at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1634)
+		at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+		at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+		at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+		at java.lang.Thread.run(Unknown Source)
